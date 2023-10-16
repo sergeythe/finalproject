@@ -8,7 +8,7 @@
             <div class="image-and-button">
                 <p><input type="number" v-model="count" @input="updateInput"/>$ в рублях</p>
                 <h1>= {{ result }}</h1>
-                <p class="info">* данные могут быть неточными и устаревшими на несколько дней</p>
+                <p class="info">* данные могут быть неточными и устаревшими на несколько часов</p>
             </div>
         </div>
 

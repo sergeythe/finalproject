@@ -4,6 +4,7 @@
             <router-link to="/" class="link">Главная страница</router-link>
             <router-link to="/chat" class="link">Чат</router-link>
             <router-link to="/currency" class="link">Курс валюты</router-link>
+            <a href="https://github.com/sergeythe/finalproject" class="link">Github репозиторий</a>
         </nav>
     </div>
 </template>
