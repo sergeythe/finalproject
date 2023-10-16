@@ -174,15 +174,16 @@ input::placeholder{
     border: 1px solid rgba(255, 255, 255, 0.8);
 }
 button{
+    font-family: Comfortaa;
     margin-left: 6px;
-    font-size: 15px;
+    font-size: 14.5px;
     height: 24px;
     padding: 0 10px 0 10px;
     transition: all 0.5s ease;
     box-sizing: border-box;
     border-radius: 12px 12px;
     cursor: pointer;
-    width: 24%;
+    width: 30%;
     background: transparent;
 }
 .alert{

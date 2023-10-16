@@ -55,7 +55,7 @@ export default {
             console.log(res)
             this.number = res
             this.isLoad = false
-        }) 
+        })
     },
 }
 </script>

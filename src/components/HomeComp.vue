@@ -74,6 +74,7 @@ label {
     margin-right: 4px;
 }
 button {
+    font-family: Comfortaa;
     margin-left: 6px;
     font-size: 15px;
     height: 24px;
