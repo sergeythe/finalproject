@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <div v-if="isLoad" class="loading">
-            Loading data...
+            Получение данных...
         </div>
 
         <div v-else class="data">
@@ -70,7 +70,9 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(255, 255, 255, 0.8); */
+    box-shadow: 0 0 10px black;
+
     border-radius: 50px;
     background-color: rgba(0,0,0, .3);
     color: black;

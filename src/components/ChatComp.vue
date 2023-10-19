@@ -131,7 +131,9 @@ h3{
 .chat{
     width: 400px;
     height: 260px;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(255, 255, 255, 0.8); */
+    box-shadow: 0 0 10px black;
+
     border-radius: 50px;
     background-color: rgba(0,0,0, .3);
     color: black;
@@ -201,10 +203,12 @@ button{
 }
 .inputs{
     padding: 16px;
-    margin-top: 6px;
+    margin-top: 14px;
     width: 400px;
     height: 40px;
-    border: 1px solid rgba(255, 255, 255, 0.8);
+    /* border: 1px solid rgba(255, 255, 255, 0.8); */
+    box-shadow: 0 0 10px black;
+
     border-radius: 50px;
     background-color: rgba(0,0,0, .3);
     color: black;
@@ -212,15 +216,5 @@ button{
     justify-content: center;
     align-items: center;
 
-}
-.empty-input{
-    animation-name: empty-input;
-    animation-duration: 0.5s;
-}
-
-@keyframes empty-input {
-  from {margin-right: 0px;}
-  50% {margin-top: 6px}
-  to {margin-right: 0px;}
 }
 </style>
